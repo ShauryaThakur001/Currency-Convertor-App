@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
     double rate = ratesModel.rates[toCurrency] ?? 1;
 
     setState(() {
-      usdConverted = amount * rate;
+      usdConverted = amount  *  rate;
     });
   }
 
